@@ -1,0 +1,31 @@
+/* Root kontrollerar värdena likt variabler i figma */
+:root {
+    --color-aqua: #4e4b6d;
+    --color-background: #fff1ff;
+    --color-box: #ffd9ff;
+    --color-text: #1b1b1b;
+
+    --font-heading: "Josefin Sans", sans-serif;
+    --font-body: "Josefin Sans", sans-serif;
+    
+    --max-width: 1040;
+    --spacing: 2opx;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* header och menu */
+
+/* typografi */
+h1 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0 auto 16px;
+}
+
+section {
+    padding: 24px 24px 24px 24px;
+}
